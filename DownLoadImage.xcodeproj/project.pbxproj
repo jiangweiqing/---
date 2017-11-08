@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97A46E673CF5C4DA20A9B47D /* libPods-DownLoadImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0971AAF281FCB594378475D3 /* libPods-DownLoadImage.a */; };
+		EE209CBF1FB2A63900E210A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE209CBE1FB2A63900E210A7 /* main.m */; };
+		EE209CC21FB2A63900E210A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE209CC11FB2A63900E210A7 /* AppDelegate.m */; };
+		EE209CC51FB2A63900E210A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE209CC41FB2A63900E210A7 /* ViewController.m */; };
+		EE209CC81FB2A63900E210A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE209CC61FB2A63900E210A7 /* Main.storyboard */; };
+		EE209CCA1FB2A63900E210A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE209CC91FB2A63900E210A7 /* Assets.xcassets */; };
+		EE209CCD1FB2A63900E210A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE209CCB1FB2A63900E210A7 /* LaunchScreen.storyboard */; };
+		EE209CD81FB2A63900E210A7 /* DownLoadImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE209CD71FB2A63900E210A7 /* DownLoadImageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE209CD41FB2A63900E210A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE209CB21FB2A63900E210A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE209CB91FB2A63900E210A7;
+			remoteInfo = DownLoadImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0971AAF281FCB594378475D3 /* libPods-DownLoadImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DownLoadImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B26247CCCF2A2F1F2734AD /* Pods-DownLoadImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownLoadImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownLoadImage/Pods-DownLoadImage.release.xcconfig"; sourceTree = "<group>"; };
+		E60910C87B504BDCC7868026 /* Pods-DownLoadImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownLoadImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownLoadImage/Pods-DownLoadImage.debug.xcconfig"; sourceTree = "<group>"; };
+		EE209CBA1FB2A63900E210A7 /* DownLoadImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownLoadImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE209CBE1FB2A63900E210A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE209CC01FB2A63900E210A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE209CC11FB2A63900E210A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE209CC31FB2A63900E210A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE209CC41FB2A63900E210A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE209CC71FB2A63900E210A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE209CC91FB2A63900E210A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE209CCC1FB2A63900E210A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE209CCE1FB2A63900E210A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE209CD31FB2A63900E210A7 /* DownLoadImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownLoadImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE209CD71FB2A63900E210A7 /* DownLoadImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownLoadImageUITests.m; sourceTree = "<group>"; };
+		EE209CD91FB2A63900E210A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE209CB71FB2A63900E210A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A46E673CF5C4DA20A9B47D /* libPods-DownLoadImage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE209CD01FB2A63900E210A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D9C1BF9BFC246274D4E7F15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E60910C87B504BDCC7868026 /* Pods-DownLoadImage.debug.xcconfig */,
+				95B26247CCCF2A2F1F2734AD /* Pods-DownLoadImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66BF9DFD368B595793DB33F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0971AAF281FCB594378475D3 /* libPods-DownLoadImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE209CB11FB2A63900E210A7 = {
+			isa = PBXGroup;
+			children = (
+				EE209CBC1FB2A63900E210A7 /* DownLoadImage */,
+				EE209CD61FB2A63900E210A7 /* DownLoadImageUITests */,
+				EE209CBB1FB2A63900E210A7 /* Products */,
+				1D9C1BF9BFC246274D4E7F15 /* Pods */,
+				66BF9DFD368B595793DB33F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE209CBB1FB2A63900E210A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE209CBA1FB2A63900E210A7 /* DownLoadImage.app */,
+				EE209CD31FB2A63900E210A7 /* DownLoadImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE209CBC1FB2A63900E210A7 /* DownLoadImage */ = {
+			isa = PBXGroup;
+			children = (
+				EE209CC01FB2A63900E210A7 /* AppDelegate.h */,
+				EE209CC11FB2A63900E210A7 /* AppDelegate.m */,
+				EE209CC31FB2A63900E210A7 /* ViewController.h */,
+				EE209CC41FB2A63900E210A7 /* ViewController.m */,
+				EE209CC61FB2A63900E210A7 /* Main.storyboard */,
+				EE209CC91FB2A63900E210A7 /* Assets.xcassets */,
+				EE209CCB1FB2A63900E210A7 /* LaunchScreen.storyboard */,
+				EE209CCE1FB2A63900E210A7 /* Info.plist */,
+				EE209CBD1FB2A63900E210A7 /* Supporting Files */,
+			);
+			path = DownLoadImage;
+			sourceTree = "<group>";
+		};
+		EE209CBD1FB2A63900E210A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE209CBE1FB2A63900E210A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE209CD61FB2A63900E210A7 /* DownLoadImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE209CD71FB2A63900E210A7 /* DownLoadImageUITests.m */,
+				EE209CD91FB2A63900E210A7 /* Info.plist */,
+			);
+			path = DownLoadImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE209CB91FB2A63900E210A7 /* DownLoadImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE209CDC1FB2A63900E210A7 /* Build configuration list for PBXNativeTarget "DownLoadImage" */;
+			buildPhases = (
+				71870EF444D8343B0AAC7C9F /* [CP] Check Pods Manifest.lock */,
+				EE209CB61FB2A63900E210A7 /* Sources */,
+				EE209CB71FB2A63900E210A7 /* Frameworks */,
+				EE209CB81FB2A63900E210A7 /* Resources */,
+				29FCD79ED5144C762F67F560 /* [CP] Embed Pods Frameworks */,
+				30F94A07D84C8868644A469F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownLoadImage;
+			productName = DownLoadImage;
+			productReference = EE209CBA1FB2A63900E210A7 /* DownLoadImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE209CD21FB2A63900E210A7 /* DownLoadImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE209CDF1FB2A63900E210A7 /* Build configuration list for PBXNativeTarget "DownLoadImageUITests" */;
+			buildPhases = (
+				EE209CCF1FB2A63900E210A7 /* Sources */,
+				EE209CD01FB2A63900E210A7 /* Frameworks */,
+				EE209CD11FB2A63900E210A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE209CD51FB2A63900E210A7 /* PBXTargetDependency */,
+			);
+			name = DownLoadImageUITests;
+			productName = DownLoadImageUITests;
+			productReference = EE209CD31FB2A63900E210A7 /* DownLoadImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE209CB21FB2A63900E210A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jiang;
+				TargetAttributes = {
+					EE209CB91FB2A63900E210A7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EE209CD21FB2A63900E210A7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE209CB91FB2A63900E210A7;
+					};
+				};
+			};
+			buildConfigurationList = EE209CB51FB2A63900E210A7 /* Build configuration list for PBXProject "DownLoadImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE209CB11FB2A63900E210A7;
+			productRefGroup = EE209CBB1FB2A63900E210A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE209CB91FB2A63900E210A7 /* DownLoadImage */,
+				EE209CD21FB2A63900E210A7 /* DownLoadImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE209CB81FB2A63900E210A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE209CCD1FB2A63900E210A7 /* LaunchScreen.storyboard in Resources */,
+				EE209CCA1FB2A63900E210A7 /* Assets.xcassets in Resources */,
+				EE209CC81FB2A63900E210A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE209CD11FB2A63900E210A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29FCD79ED5144C762F67F560 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownLoadImage/Pods-DownLoadImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30F94A07D84C8868644A469F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownLoadImage/Pods-DownLoadImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71870EF444D8343B0AAC7C9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DownLoadImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE209CB61FB2A63900E210A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE209CC51FB2A63900E210A7 /* ViewController.m in Sources */,
+				EE209CC21FB2A63900E210A7 /* AppDelegate.m in Sources */,
+				EE209CBF1FB2A63900E210A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE209CCF1FB2A63900E210A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE209CD81FB2A63900E210A7 /* DownLoadImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE209CD51FB2A63900E210A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE209CB91FB2A63900E210A7 /* DownLoadImage */;
+			targetProxy = EE209CD41FB2A63900E210A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE209CC61FB2A63900E210A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE209CC71FB2A63900E210A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE209CCB1FB2A63900E210A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE209CCC1FB2A63900E210A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE209CDA1FB2A63900E210A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE209CDB1FB2A63900E210A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE209CDD1FB2A63900E210A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60910C87B504BDCC7868026 /* Pods-DownLoadImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DownLoadImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiang.DownLoadImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE209CDE1FB2A63900E210A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B26247CCCF2A2F1F2734AD /* Pods-DownLoadImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DownLoadImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiang.DownLoadImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE209CE01FB2A63900E210A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DownLoadImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiang.DownLoadImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DownLoadImage;
+			};
+			name = Debug;
+		};
+		EE209CE11FB2A63900E210A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DownLoadImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiang.DownLoadImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DownLoadImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE209CB51FB2A63900E210A7 /* Build configuration list for PBXProject "DownLoadImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE209CDA1FB2A63900E210A7 /* Debug */,
+				EE209CDB1FB2A63900E210A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE209CDC1FB2A63900E210A7 /* Build configuration list for PBXNativeTarget "DownLoadImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE209CDD1FB2A63900E210A7 /* Debug */,
+				EE209CDE1FB2A63900E210A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE209CDF1FB2A63900E210A7 /* Build configuration list for PBXNativeTarget "DownLoadImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE209CE01FB2A63900E210A7 /* Debug */,
+				EE209CE11FB2A63900E210A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE209CB21FB2A63900E210A7 /* Project object */;
+}
