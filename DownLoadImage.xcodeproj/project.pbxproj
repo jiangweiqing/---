@@ -44,6 +44,7 @@
 		EE209CD31FB2A63900E210A7 /* DownLoadImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownLoadImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE209CD71FB2A63900E210A7 /* DownLoadImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownLoadImageUITests.m; sourceTree = "<group>"; };
 		EE209CD91FB2A63900E210A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE209CE21FB2AF3300E210A7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +115,7 @@
 				EE209CCB1FB2A63900E210A7 /* LaunchScreen.storyboard */,
 				EE209CCE1FB2A63900E210A7 /* Info.plist */,
 				EE209CBD1FB2A63900E210A7 /* Supporting Files */,
+				EE209CE21FB2AF3300E210A7 /* PrefixHeader.pch */,
 			);
 			path = DownLoadImage;
 			sourceTree = "<group>";
@@ -492,6 +494,7 @@
 				EE209CDE1FB2A63900E210A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE209CDF1FB2A63900E210A7 /* Build configuration list for PBXNativeTarget "DownLoadImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +503,7 @@
 				EE209CE11FB2A63900E210A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
